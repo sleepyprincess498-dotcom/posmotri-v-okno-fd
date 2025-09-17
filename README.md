@@ -1,1 +1,1 @@
-https://github.com/sleepyprincess498-dotcom/posmotri-v-okno-fd#
+https://github.com/sleepyprincess498-dotcom/posmotri-v-okno-fd/tree/main
