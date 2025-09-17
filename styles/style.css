@@ -56,6 +56,7 @@ ol {
 
 .result__video {
   object-fit: cover;
+  object-position: top;
   width: 100%;
   height: 100%;
 }
@@ -130,8 +131,9 @@ input[type="text"]:focus-visible {
   opacity: 1;
 } 
 
-.hover-underline:hover{
+label .search-form__label-text:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__label {
@@ -140,7 +142,7 @@ input[type="text"]:focus-visible {
   gap: 5px;
 }
 
-.search-form__label:has(input[type="checkbox"]:focus-visible) {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
