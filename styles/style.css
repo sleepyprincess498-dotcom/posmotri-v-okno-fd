@@ -131,15 +131,15 @@ input[type="text"]:focus-visible {
   opacity: 1;
 } 
 
-label .search-form__label-text:hover{
+label:hover .search-form__label-text{
   text-decoration: underline;
-  cursor: pointer;
 }
 
 .search-form__label {
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
